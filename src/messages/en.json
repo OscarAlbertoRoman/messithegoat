@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "MESSI — The GOAT",
+    "description": "An interactive tribute to Lionel Messi: his journey, his trophies, and the records that made him the Greatest Of All Time."
+  },
+  "nav": {
+    "home": "Home",
+    "timeline": "Timeline",
+    "trophies": "Trophy Room",
+    "stats": "GOAT Stats",
+    "languageLabel": "Language"
+  },
+  "hero": {
+    "eyebrow": "The Greatest Of All Time",
+    "titleLine1": "MESSI",
+    "titleLine2": "THE GOAT",
+    "subtitle": "From a small boy in Rosario to football's eternal king. One ball, one left foot, and a legacy that will never be repeated.",
+    "cta1": "Explore the Legacy",
+    "cta2": "View Trophies",
+    "scroll": "Scroll to explore",
+    "stats": {
+      "goals": "Career Goals",
+      "assists": "Career Assists",
+      "matches": "Matches Played",
+      "trophies": "Trophies Won"
+    }
+  },
+  "timeline": {
+    "eyebrow": "The Journey",
+    "title": "The Trajectory",
+    "subtitle": "Every legend has a path. His began on a dusty pitch in Rosario and never stopped climbing.",
+    "items": {
+      "grandoli": {
+        "club": "Grandoli & Newell's Old Boys",
+        "title": "The Beginning in Rosario",
+        "description": "At age five, a young Leo starts kicking a ball for Grandoli, coached by his own father. He soon moves to Newell's Old Boys, dazzling everyone with a talent no one his age had ever shown."
+      },
+      "hormone": {
+        "club": "Growth Hormone Treatment",
+        "title": "Overcoming Adversity",
+        "description": "Diagnosed with a growth hormone deficiency, Messi faces a costly treatment his family cannot fully afford. The obstacle becomes the first test of a will that would define his entire career."
+      },
+      "arrival": {
+        "club": "FC Barcelona",
+        "title": "A Napkin and a Dream",
+        "description": "At 13, Messi travels to Barcelona for a trial. Convinced of his talent, the club's sporting director famously signs the first contract on a paper napkin, changing football history forever."
+      },
+      "barcelona": {
+        "club": "FC Barcelona",
+        "title": "Building an Legend",
+        "description": "Seventeen unforgettable seasons in Blaugrana. Four Champions Leagues, ten La Liga titles, and hundreds of goals that turned the Camp Nou into his personal stage and Messi into the best player of his generation."
+      },
+      "psg": {
+        "club": "Paris Saint-Germain",
+        "title": "A New Chapter in Paris",
+        "description": "An emotional and unexpected farewell to Barcelona leads Messi to Paris, where he continues collecting titles and, crucially, keeps his date with history at the World Cup."
+      },
+      "worldcup": {
+        "club": "Argentina National Team",
+        "title": "World Champion",
+        "description": "December 18th, 2022, Lusail. After a final for the ages against France, Argentina lifts the World Cup. Messi is crowned champion of the world, completing football's most storied career."
+      },
+      "miami": {
+        "club": "Inter Miami CF",
+        "title": "Conquering the United States",
+        "description": "Messi arrives in Florida and instantly reshapes American soccer, winning trophies from his very first months and sparking a wave of global attention for the league."
+      }
+    }
+  },
+  "trophies": {
+    "eyebrow": "The Showcase",
+    "title": "Trophy Room",
+    "subtitle": "A collection unmatched in the history of the sport — club, country, and individual glory combined like never before.",
+    "wonLabel": "Won",
+    "items": {
+      "worldCup": {
+        "name": "FIFA World Cup",
+        "detail": "Qatar 2022 — the crown that completed the GOAT's legacy."
+      },
+      "ballonDor": {
+        "name": "Ballon d'Or",
+        "detail": "A record 8 wins — no other player is even close."
+      },
+      "copaAmerica": {
+        "name": "Copa América",
+        "detail": "Champion with Argentina, ending an 28-year national drought."
+      },
+      "championsLeague": {
+        "name": "UEFA Champions League",
+        "detail": "Four European crowns lifted with FC Barcelona."
+      },
+      "laLiga": {
+        "name": "La Liga",
+        "detail": "Ten domestic league titles won in Spain."
+      },
+      "copaDelRey": {
+        "name": "Copa del Rey",
+        "detail": "Seven Spanish Cup triumphs."
+      },
+      "goldenShoe": {
+        "name": "European Golden Shoe",
+        "detail": "A record six-time top scorer across Europe's leagues."
+      },
+      "olympicGold": {
+        "name": "Olympic Gold Medal",
+        "detail": "Beijing 2008, champion with the Argentina U-23 squad."
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "By the Numbers",
+    "title": "The GOAT Stats",
+    "subtitle": "Records that redefine what's possible on a football pitch — numbers no one else has ever reached.",
+    "note": "All figures reflect career totals across club and international football.",
+    "items": {
+      "ballonDor": { "label": "Ballon d'Or Awards", "context": "Most all-time — 2nd place has 5" },
+      "calendarYearGoals": { "label": "Goals in a Calendar Year", "context": "2012 — an all-time world record" },
+      "laLigaGoals": { "label": "La Liga Goals", "context": "All-time top scorer in Spain's top flight" },
+      "clubGoals": { "label": "Goals for FC Barcelona", "context": "The club's all-time record scorer" },
+      "hatTricks": { "label": "Career Hat-tricks", "context": "Including 8 four-goal games and 1 five-goal game" },
+      "copaAmericaGoals": { "label": "Copa América Goals", "context": "All-time top scorer in the tournament's history" },
+      "assistsAllTime": { "label": "Career Assists", "context": "The greatest playmaker of his era" },
+      "freeKicks": { "label": "Direct Free-kick Goals", "context": "Among the deadliest set-piece takers ever" }
+    }
+  },
+  "footer": {
+    "tagline": "A tribute built for the fans, in every language, for the GOAT.",
+    "madeWith": "Built with passion for football.",
+    "rights": "Unofficial fan tribute. All trademarks belong to their respective owners."
+  }
+}

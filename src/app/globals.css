@@ -1,26 +1,109 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-goat-black: #050505;
+  --color-goat-charcoal: #0f0f10;
+  --color-goat-panel: #161618;
+  --color-goat-border: #26262a;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-goat-gold: #d4af37;
+  --color-goat-gold-light: #f4d160;
+  --color-goat-gold-dim: #8a6f27;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --color-goat-celeste: #75aadb;
+  --color-goat-celeste-light: #a9cdea;
+
+  --color-blaugrana-blue: #004d98;
+  --color-blaugrana-garnet: #a50044;
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  --animate-shimmer: shimmer 2.5s linear infinite;
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes shimmer {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-14px);
+    }
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-goat-black);
+  color: #f5f5f5;
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--color-goat-gold);
+  color: #050505;
+}
+
+/* Slim gold scrollbar for the premium feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-goat-black);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-goat-gold-dim);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-goat-gold);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(
+    90deg,
+    var(--color-goat-gold-dim),
+    var(--color-goat-gold-light),
+    var(--color-goat-gold-dim)
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.shimmer-gold {
+  background: linear-gradient(
+    100deg,
+    var(--color-goat-gold-dim) 20%,
+    var(--color-goat-gold-light) 40%,
+    var(--color-goat-gold-light) 60%,
+    var(--color-goat-gold-dim) 80%
+  );
+  background-size: 200% auto;
+  animation: var(--animate-shimmer);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(212, 175, 55, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(212, 175, 55, 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
 }

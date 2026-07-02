@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "MESSI — Der GOAT",
+    "description": "Eine interaktive Hommage an Lionel Messi: sein Weg, seine Titel und die Rekorde, die ihn zum größten Fußballer aller Zeiten machten."
+  },
+  "nav": {
+    "home": "Start",
+    "timeline": "Zeitleiste",
+    "trophies": "Trophäenraum",
+    "stats": "GOAT-Statistiken",
+    "languageLabel": "Sprache"
+  },
+  "hero": {
+    "eyebrow": "Der Größte aller Zeiten",
+    "titleLine1": "MESSI",
+    "titleLine2": "DER GOAT",
+    "subtitle": "Vom kleinen Jungen aus Rosario zum ewigen König des Fußballs. Ein Ball, ein linker Fuß und ein Vermächtnis, das nie wieder erreicht wird.",
+    "cta1": "Das Vermächtnis entdecken",
+    "cta2": "Trophäen ansehen",
+    "scroll": "Scrollen zum Entdecken",
+    "stats": {
+      "goals": "Karrieretore",
+      "assists": "Karriere-Assists",
+      "matches": "Absolvierte Spiele",
+      "trophies": "Gewonnene Titel"
+    }
+  },
+  "timeline": {
+    "eyebrow": "Der Werdegang",
+    "title": "Die Laufbahn",
+    "subtitle": "Jede Legende hat einen Weg. Seiner begann auf einem staubigen Platz in Rosario und kannte seitdem nur eine Richtung: nach oben.",
+    "items": {
+      "grandoli": {
+        "club": "Grandoli & Newell's Old Boys",
+        "title": "Die Anfänge in Rosario",
+        "description": "Mit fünf Jahren beginnt der junge Leo, für Grandoli zu kicken, trainiert von seinem eigenen Vater. Bald wechselt er zu Newell's Old Boys und verblüfft alle mit einem Talent, wie es niemand in seinem Alter je gezeigt hatte."
+      },
+      "hormone": {
+        "club": "Wachstumshormonbehandlung",
+        "title": "Widerstände überwinden",
+        "description": "Bei Messi wird ein Wachstumshormonmangel diagnostiziert – eine teure Behandlung, die sich seine Familie kaum leisten kann. Das Hindernis wird zur ersten Bewährungsprobe für einen Willen, der seine gesamte Karriere prägen sollte."
+      },
+      "arrival": {
+        "club": "FC Barcelona",
+        "title": "Eine Serviette und ein Traum",
+        "description": "Mit 13 Jahren reist Messi zu einem Probetraining nach Barcelona. Vom Talent des Jungen überzeugt, unterschreibt der Sportdirektor des Klubs den ersten Vertrag der Fußballgeschichte berühmterweise auf einer Papierserviette."
+      },
+      "barcelona": {
+        "club": "FC Barcelona",
+        "title": "Der Aufbau einer Legende",
+        "description": "Siebzehn unvergessliche Spielzeiten im Blaugrana-Trikot. Vier Champions-League-Titel, zehn spanische Meisterschaften und Hunderte Tore, die den Camp Nou zu seiner persönlichen Bühne und Messi zum besten Spieler seiner Generation machten."
+      },
+      "psg": {
+        "club": "Paris Saint-Germain",
+        "title": "Ein neues Kapitel in Paris",
+        "description": "Ein emotionaler und unerwarteter Abschied von Barcelona führt Messi nach Paris, wo er weiter Titel sammelt und – entscheidend – seinen Termin mit der Geschichte bei der Weltmeisterschaft wahrt."
+      },
+      "worldcup": {
+        "club": "Argentinische Nationalmannschaft",
+        "title": "Weltmeister",
+        "description": "18. Dezember 2022, Lusail. Nach einem Finale für die Ewigkeit gegen Frankreich holt Argentinien den WM-Titel. Messi wird zum Weltmeister gekrönt und vollendet damit die glanzvollste Karriere der Fußballgeschichte."
+      },
+      "miami": {
+        "club": "Inter Miami CF",
+        "title": "Die Eroberung der USA",
+        "description": "Messi kommt nach Florida und verändert den amerikanischen Fußball auf der Stelle: Schon in seinen ersten Monaten gewinnt er Titel und löst eine weltweite Welle der Aufmerksamkeit für die Liga aus."
+      }
+    }
+  },
+  "trophies": {
+    "eyebrow": "Die Ausstellung",
+    "title": "Trophäenraum",
+    "subtitle": "Eine in der Geschichte des Sports beispiellose Sammlung – Ruhm auf Klub-, Nationalmannschafts- und individueller Ebene wie nie zuvor vereint.",
+    "wonLabel": "Gewonnen",
+    "items": {
+      "worldCup": {
+        "name": "FIFA-Weltmeisterschaft",
+        "detail": "Katar 2022 — die Krone, die das Vermächtnis des GOAT vollendete."
+      },
+      "ballonDor": {
+        "name": "Ballon d'Or",
+        "detail": "Rekordverdächtige 8 Auszeichnungen — kein anderer Spieler kommt auch nur annähernd heran."
+      },
+      "copaAmerica": {
+        "name": "Copa América",
+        "detail": "Titelgewinn mit Argentinien, der eine 28 Jahre währende Durststrecke der Nationalmannschaft beendete."
+      },
+      "championsLeague": {
+        "name": "UEFA Champions League",
+        "detail": "Vier europäische Kronen mit dem FC Barcelona geholt."
+      },
+      "laLiga": {
+        "name": "La Liga",
+        "detail": "Zehn spanische Meistertitel gewonnen."
+      },
+      "copaDelRey": {
+        "name": "Copa del Rey",
+        "detail": "Sieben Triumphe im spanischen Pokal."
+      },
+      "goldenShoe": {
+        "name": "Goldener Schuh Europas",
+        "detail": "Rekord: sechsmal Torschützenkönig der europäischen Ligen."
+      },
+      "olympicGold": {
+        "name": "Olympisches Gold",
+        "detail": "Peking 2008, Champion mit Argentiniens U-23-Auswahl."
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "In Zahlen",
+    "title": "Die GOAT-Statistiken",
+    "subtitle": "Rekorde, die neu definieren, was auf einem Fußballplatz möglich ist – Zahlen, die sonst niemand je erreicht hat.",
+    "note": "Alle Angaben beziehen sich auf die Karrieregesamtwerte in Klub- und Nationalmannschaftsfußball.",
+    "items": {
+      "ballonDor": { "label": "Ballon-d'Or-Auszeichnungen", "context": "Allzeit-Rekord — Platz 2 hat 5" },
+      "calendarYearGoals": { "label": "Tore in einem Kalenderjahr", "context": "2012 — ein Weltrekord aller Zeiten" },
+      "laLigaGoals": { "label": "Tore in der La Liga", "context": "Ewiger Top-Torschütze der spanischen Eliteliga" },
+      "clubGoals": { "label": "Tore für den FC Barcelona", "context": "Rekordtorschütze des Vereins" },
+      "hatTricks": { "label": "Hattricks der Karriere", "context": "Darunter 8 Vierfach-Pack und ein Fünffach-Pack" },
+      "copaAmericaGoals": { "label": "Copa-América-Tore", "context": "Ewiger Top-Torschütze der Turniergeschichte" },
+      "assistsAllTime": { "label": "Karriere-Assists", "context": "Der größte Vorbereiter seiner Ära" },
+      "freeKicks": { "label": "Direkte Freistoßtore", "context": "Einer der gefährlichsten Standardschützen aller Zeiten" }
+    }
+  },
+  "footer": {
+    "tagline": "Eine Hommage für die Fans, in jeder Sprache, für den GOAT.",
+    "madeWith": "Mit Leidenschaft für den Fußball erschaffen.",
+    "rights": "Inoffizielle Fan-Hommage. Alle Markenrechte liegen bei ihren jeweiligen Inhabern."
+  }
+}

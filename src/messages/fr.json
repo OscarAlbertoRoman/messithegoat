@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "MESSI — Le GOAT",
+    "description": "Un hommage interactif à Lionel Messi : son parcours, ses trophées et les records qui ont fait de lui le meilleur joueur de tous les temps."
+  },
+  "nav": {
+    "home": "Accueil",
+    "timeline": "Parcours",
+    "trophies": "Salle des Trophées",
+    "stats": "Statistiques du GOAT",
+    "languageLabel": "Langue"
+  },
+  "hero": {
+    "eyebrow": "Le Meilleur de Tous les Temps",
+    "titleLine1": "MESSI",
+    "titleLine2": "LE GOAT",
+    "subtitle": "D'un petit garçon de Rosario au roi éternel du football. Un ballon, un pied gauche, et une légende qui ne se répétera jamais.",
+    "cta1": "Découvrir la Légende",
+    "cta2": "Voir les Trophées",
+    "scroll": "Défiler pour découvrir",
+    "stats": {
+      "goals": "Buts en Carrière",
+      "assists": "Passes Décisives en Carrière",
+      "matches": "Matchs Joués",
+      "trophies": "Trophées Remportés"
+    }
+  },
+  "timeline": {
+    "eyebrow": "Le Parcours",
+    "title": "La Trajectoire",
+    "subtitle": "Toute légende a un chemin. Le sien a commencé sur un terrain poussiéreux de Rosario et n'a jamais cessé de s'élever.",
+    "items": {
+      "grandoli": {
+        "club": "Grandoli et Newell's Old Boys",
+        "title": "Les Débuts à Rosario",
+        "description": "À cinq ans, le jeune Leo commence à taper dans un ballon à Grandoli, entraîné par son propre père. Il rejoint rapidement Newell's Old Boys, où il éblouit tout le monde par un talent que personne de son âge n'avait jamais montré."
+      },
+      "hormone": {
+        "club": "Traitement à l'Hormone de Croissance",
+        "title": "Surmonter l'Adversité",
+        "description": "Diagnostiqué avec un déficit en hormone de croissance, Messi doit affronter un traitement coûteux que sa famille ne peut assumer entièrement. Cet obstacle devient la première épreuve d'une volonté qui définira toute sa carrière."
+      },
+      "arrival": {
+        "club": "FC Barcelone",
+        "title": "Une Serviette en Papier et un Rêve",
+        "description": "À 13 ans, Messi se rend à Barcelone pour un essai. Convaincu de son talent, le directeur sportif du club signe le fameux premier contrat sur une serviette en papier, changeant à jamais l'histoire du football."
+      },
+      "barcelona": {
+        "club": "FC Barcelone",
+        "title": "La Construction d'une Légende",
+        "description": "Dix-sept saisons inoubliables sous le maillot blaugrana. Quatre Ligues des Champions, dix titres de Liga et des centaines de buts qui ont fait du Camp Nou sa scène personnelle et de Messi le meilleur joueur de sa génération."
+      },
+      "psg": {
+        "club": "Paris Saint-Germain",
+        "title": "Un Nouveau Chapitre à Paris",
+        "description": "Un adieu émouvant et inattendu à Barcelone conduit Messi à Paris, où il continue de collectionner les titres et, surtout, honore son rendez-vous avec l'histoire lors de la Coupe du Monde."
+      },
+      "worldcup": {
+        "club": "Équipe d'Argentine",
+        "title": "Champion du Monde",
+        "description": "Le 18 décembre 2022, à Lusail. Après une finale d'anthologie face à la France, l'Argentine soulève la Coupe du Monde. Messi est sacré champion du monde, achevant la carrière la plus légendaire du football."
+      },
+      "miami": {
+        "club": "Inter Miami CF",
+        "title": "À la Conquête des États-Unis",
+        "description": "Messi débarque en Floride et transforme instantanément le soccer américain, remportant des titres dès ses premiers mois et suscitant un engouement mondial pour la ligue."
+      }
+    }
+  },
+  "trophies": {
+    "eyebrow": "La Vitrine",
+    "title": "Salle des Trophées",
+    "subtitle": "Une collection sans égale dans l'histoire du sport — gloire en club, en sélection et à titre individuel réunies comme jamais.",
+    "wonLabel": "Remportés",
+    "items": {
+      "worldCup": {
+        "name": "Coupe du Monde de la FIFA",
+        "detail": "Qatar 2022 — le sacre qui a couronné la légende du GOAT."
+      },
+      "ballonDor": {
+        "name": "Ballon d'Or",
+        "detail": "Un record de 8 sacres — aucun autre joueur n'en est même proche."
+      },
+      "copaAmerica": {
+        "name": "Copa América",
+        "detail": "Champion avec l'Argentine, mettant fin à 28 ans de disette pour la sélection."
+      },
+      "championsLeague": {
+        "name": "Ligue des Champions de l'UEFA",
+        "detail": "Quatre couronnes européennes soulevées avec le FC Barcelone."
+      },
+      "laLiga": {
+        "name": "Liga",
+        "detail": "Dix titres de champion remportés en Espagne."
+      },
+      "copaDelRey": {
+        "name": "Coupe du Roi",
+        "detail": "Sept triomphes en Coupe du Roi d'Espagne."
+      },
+      "goldenShoe": {
+        "name": "Soulier d'Or Européen",
+        "detail": "Un record de six titres de meilleur buteur des championnats européens."
+      },
+      "olympicGold": {
+        "name": "Médaille d'Or Olympique",
+        "detail": "Pékin 2008, champion avec la sélection argentine des moins de 23 ans."
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "En Chiffres",
+    "title": "Les Statistiques du GOAT",
+    "subtitle": "Des records qui redéfinissent ce qui est possible sur un terrain de football — des chiffres que personne d'autre n'a jamais atteints.",
+    "note": "Tous les chiffres reflètent les totaux de carrière, en club comme en sélection.",
+    "items": {
+      "ballonDor": { "label": "Ballons d'Or remportés", "context": "Un record absolu — le deuxième n'en compte que 5" },
+      "calendarYearGoals": { "label": "Buts sur une Année Civile", "context": "2012 — un record du monde absolu" },
+      "laLigaGoals": { "label": "Buts en Liga", "context": "Meilleur buteur de l'histoire du championnat espagnol" },
+      "clubGoals": { "label": "Buts avec le FC Barcelone", "context": "Meilleur buteur de l'histoire du club" },
+      "hatTricks": { "label": "Triplés en Carrière", "context": "Dont 8 matchs à quatre buts et 1 match à cinq buts" },
+      "copaAmericaGoals": { "label": "Buts en Copa América", "context": "Meilleur buteur de l'histoire de la compétition" },
+      "assistsAllTime": { "label": "Passes Décisives en Carrière", "context": "Le plus grand créateur de jeu de son époque" },
+      "freeKicks": { "label": "Buts sur Coup Franc Direct", "context": "Parmi les plus redoutables tireurs de coups de pied arrêtés de l'histoire" }
+    }
+  },
+  "footer": {
+    "tagline": "Un hommage conçu pour les fans, dans toutes les langues, pour le GOAT.",
+    "madeWith": "Construit avec passion pour le football.",
+    "rights": "Hommage non officiel de fans. Toutes les marques appartiennent à leurs propriétaires respectifs."
+  }
+}

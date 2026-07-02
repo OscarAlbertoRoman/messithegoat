@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "MESSI — Sang GOAT",
+    "description": "Sebuah penghormatan interaktif untuk Lionel Messi: perjalanannya, trofi-trofinya, dan rekor-rekor yang menjadikannya Pemain Terhebat Sepanjang Masa."
+  },
+  "nav": {
+    "home": "Beranda",
+    "timeline": "Linimasa",
+    "trophies": "Ruang Trofi",
+    "stats": "Statistik GOAT",
+    "languageLabel": "Bahasa"
+  },
+  "hero": {
+    "eyebrow": "Yang Terhebat Sepanjang Masa",
+    "titleLine1": "MESSI",
+    "titleLine2": "SANG GOAT",
+    "subtitle": "Dari bocah kecil di Rosario menjadi raja abadi sepak bola. Satu bola, satu kaki kiri, dan warisan yang tak akan pernah terulang.",
+    "cta1": "Jelajahi Warisannya",
+    "cta2": "Lihat Trofi",
+    "scroll": "Gulir untuk menjelajah",
+    "stats": {
+      "goals": "Gol Sepanjang Karier",
+      "assists": "Assist Sepanjang Karier",
+      "matches": "Pertandingan Dimainkan",
+      "trophies": "Trofi Dimenangkan"
+    }
+  },
+  "timeline": {
+    "eyebrow": "Sang Perjalanan",
+    "title": "Jejak Langkah",
+    "subtitle": "Setiap legenda punya jalannya sendiri. Miliknya dimulai di lapangan berdebu di Rosario dan tak pernah berhenti menanjak.",
+    "items": {
+      "grandoli": {
+        "club": "Grandoli & Newell's Old Boys",
+        "title": "Awal Mula di Rosario",
+        "description": "Di usia lima tahun, Leo kecil mulai menendang bola bersama Grandoli, dilatih langsung oleh ayahnya sendiri. Tak lama kemudian ia pindah ke Newell's Old Boys, memukau semua orang dengan bakat yang belum pernah ditunjukkan anak seusianya."
+      },
+      "hormone": {
+        "club": "Terapi Hormon Pertumbuhan",
+        "title": "Mengatasi Kesulitan",
+        "description": "Didiagnosis kekurangan hormon pertumbuhan, Messi menghadapi biaya pengobatan yang tak sepenuhnya mampu ditanggung keluarganya. Rintangan ini menjadi ujian pertama bagi tekad yang kelak mendefinisikan seluruh perjalanan kariernya."
+      },
+      "arrival": {
+        "club": "FC Barcelona",
+        "title": "Selembar Serbet dan Sebuah Mimpi",
+        "description": "Di usia 13 tahun, Messi terbang ke Barcelona untuk menjalani trial. Yakin akan bakatnya, direktur olahraga klub dikenal menandatangani kontrak pertama di atas serbet kertas, mengubah sejarah sepak bola selamanya."
+      },
+      "barcelona": {
+        "club": "FC Barcelona",
+        "title": "Membangun Sebuah Legenda",
+        "description": "Tujuh belas musim tak terlupakan berseragam Blaugrana. Empat gelar Liga Champions, sepuluh gelar La Liga, dan ratusan gol yang menjadikan Camp Nou panggung pribadinya serta Messi sebagai pemain terbaik pada generasinya."
+      },
+      "psg": {
+        "club": "Paris Saint-Germain",
+        "title": "Babak Baru di Paris",
+        "description": "Perpisahan emosional dan tak terduga dengan Barcelona membawa Messi ke Paris, tempat ia terus mengoleksi gelar dan, yang terpenting, tetap memenuhi janjinya dengan sejarah di Piala Dunia."
+      },
+      "worldcup": {
+        "club": "Timnas Argentina",
+        "title": "Juara Dunia",
+        "description": "18 Desember 2022, di Lusail. Setelah final yang akan selalu dikenang melawan Prancis, Argentina mengangkat trofi Piala Dunia. Messi dinobatkan sebagai juara dunia, melengkapi karier paling legendaris dalam sejarah sepak bola."
+      },
+      "miami": {
+        "club": "Inter Miami CF",
+        "title": "Menaklukkan Amerika Serikat",
+        "description": "Messi tiba di Florida dan seketika mengubah wajah sepak bola Amerika, memenangkan trofi sejak bulan-bulan pertamanya dan memicu gelombang perhatian global terhadap liga tersebut."
+      }
+    }
+  },
+  "trophies": {
+    "eyebrow": "Sang Etalase",
+    "title": "Ruang Trofi",
+    "subtitle": "Koleksi yang tak tertandingi dalam sejarah olahraga ini — kejayaan klub, negara, dan individu menyatu seperti belum pernah terjadi sebelumnya.",
+    "wonLabel": "Dimenangkan",
+    "items": {
+      "worldCup": {
+        "name": "Piala Dunia FIFA",
+        "detail": "Qatar 2022 — mahkota yang menyempurnakan warisan sang GOAT."
+      },
+      "ballonDor": {
+        "name": "Ballon d'Or",
+        "detail": "Rekor 8 kali meraihnya — tak ada pemain lain yang mendekati."
+      },
+      "copaAmerica": {
+        "name": "Copa América",
+        "detail": "Juara bersama Argentina, mengakhiri penantian panjang timnas selama 28 tahun."
+      },
+      "championsLeague": {
+        "name": "Liga Champions UEFA",
+        "detail": "Empat mahkota Eropa diraih bersama FC Barcelona."
+      },
+      "laLiga": {
+        "name": "La Liga",
+        "detail": "Sepuluh gelar juara liga domestik Spanyol."
+      },
+      "copaDelRey": {
+        "name": "Copa del Rey",
+        "detail": "Tujuh kali juara Piala Spanyol."
+      },
+      "goldenShoe": {
+        "name": "Sepatu Emas Eropa",
+        "detail": "Rekor enam kali menjadi pencetak gol terbanyak di liga-liga Eropa."
+      },
+      "olympicGold": {
+        "name": "Medali Emas Olimpiade",
+        "detail": "Beijing 2008, juara bersama skuad Argentina U-23."
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "Dalam Angka",
+    "title": "Statistik Sang GOAT",
+    "subtitle": "Rekor-rekor yang mendefinisikan ulang batas kemungkinan di lapangan sepak bola — angka yang belum pernah dicapai siapa pun.",
+    "note": "Semua angka mencerminkan total sepanjang karier di level klub maupun internasional.",
+    "items": {
+      "ballonDor": { "label": "Penghargaan Ballon d'Or", "context": "Terbanyak sepanjang masa — posisi kedua hanya meraih 5" },
+      "calendarYearGoals": { "label": "Gol dalam Satu Tahun Kalender", "context": "2012 — rekor dunia sepanjang masa" },
+      "laLigaGoals": { "label": "Gol di La Liga", "context": "Pencetak gol terbanyak sepanjang masa di kasta tertinggi Spanyol" },
+      "clubGoals": { "label": "Gol untuk FC Barcelona", "context": "Pencetak gol terbanyak sepanjang sejarah klub" },
+      "hatTricks": { "label": "Hat-trick Sepanjang Karier", "context": "Termasuk 8 laga dengan empat gol dan 1 laga dengan lima gol" },
+      "copaAmericaGoals": { "label": "Gol di Copa América", "context": "Pencetak gol terbanyak sepanjang sejarah turnamen" },
+      "assistsAllTime": { "label": "Assist Sepanjang Karier", "context": "Kreator peluang terhebat pada masanya" },
+      "freeKicks": { "label": "Gol Tendangan Bebas Langsung", "context": "Salah satu algojo bola mati paling mematikan sepanjang masa" }
+    }
+  },
+  "footer": {
+    "tagline": "Sebuah penghormatan untuk para penggemar, dalam setiap bahasa, untuk sang GOAT.",
+    "madeWith": "Dibangun dengan sepenuh hati untuk sepak bola.",
+    "rights": "Penghormatan penggemar tidak resmi. Semua merek dagang adalah milik pemiliknya masing-masing."
+  }
+}

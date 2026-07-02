@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "MESSI — El GOAT",
+    "description": "Un homenaje interactivo a Lionel Messi: su trayectoria, sus títulos y los récords que lo convirtieron en el Mejor de Todos los Tiempos."
+  },
+  "nav": {
+    "home": "Inicio",
+    "timeline": "Trayectoria",
+    "trophies": "Sala de Trofeos",
+    "stats": "Estadísticas GOAT",
+    "languageLabel": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "El Mejor de Todos los Tiempos",
+    "titleLine1": "MESSI",
+    "titleLine2": "EL GOAT",
+    "subtitle": "De un niño en Rosario al rey eterno del fútbol. Una pelota, una zurda y un legado que jamás se repetirá.",
+    "cta1": "Descubrir el Legado",
+    "cta2": "Ver Trofeos",
+    "scroll": "Desliza para descubrir más",
+    "stats": {
+      "goals": "Goles en su Carrera",
+      "assists": "Asistencias en su Carrera",
+      "matches": "Partidos Jugados",
+      "trophies": "Títulos Conquistados"
+    }
+  },
+  "timeline": {
+    "eyebrow": "El Camino",
+    "title": "La Trayectoria",
+    "subtitle": "Toda leyenda tiene un camino. El suyo comenzó en una cancha de tierra en Rosario y nunca dejó de crecer.",
+    "items": {
+      "grandoli": {
+        "club": "Grandoli y Newell's Old Boys",
+        "title": "Los Inicios en Rosario",
+        "description": "A los cinco años, un pequeño Leo empieza a patear una pelota en Grandoli, dirigido por su propio padre. Poco después pasa a Newell's Old Boys, donde deslumbra a todos con un talento que nadie de su edad había mostrado."
+      },
+      "hormone": {
+        "club": "Tratamiento de Hormona de Crecimiento",
+        "title": "Superando la Adversidad",
+        "description": "Diagnosticado con un déficit de hormona de crecimiento, Messi enfrenta un tratamiento costoso que su familia no puede afrontar por completo. El obstáculo se convierte en la primera prueba de una voluntad que definiría toda su carrera."
+      },
+      "arrival": {
+        "club": "FC Barcelona",
+        "title": "Una Servilleta y un Sueño",
+        "description": "A los 13 años, Messi viaja a Barcelona para una prueba. Convencido de su talento, el director deportivo del club firma el célebre primer contrato en una servilleta de papel, cambiando para siempre la historia del fútbol."
+      },
+      "barcelona": {
+        "club": "FC Barcelona",
+        "title": "Construyendo una Leyenda",
+        "description": "Diecisiete temporadas inolvidables de blaugrana. Cuatro Champions League, diez títulos de La Liga y cientos de goles que convirtieron al Camp Nou en su escenario personal y a Messi en el mejor jugador de su generación."
+      },
+      "psg": {
+        "club": "Paris Saint-Germain",
+        "title": "Un Nuevo Capítulo en París",
+        "description": "Una despedida emotiva e inesperada de Barcelona lleva a Messi a París, donde sigue sumando títulos y, sobre todo, mantiene su cita con la historia en el Mundial."
+      },
+      "worldcup": {
+        "club": "Selección Argentina",
+        "title": "Campeón del Mundo",
+        "description": "18 de diciembre de 2022, Lusail. Tras una final memorable ante Francia, Argentina levanta la Copa del Mundo. Messi es coronado campeón del mundo, completando la carrera más gloriosa del fútbol."
+      },
+      "miami": {
+        "club": "Inter Miami CF",
+        "title": "Conquistando Estados Unidos",
+        "description": "Messi llega a Florida y transforma de inmediato el fútbol estadounidense, ganando títulos desde sus primeros meses y despertando una ola de atención mundial hacia la liga."
+      }
+    }
+  },
+  "trophies": {
+    "eyebrow": "La Vitrina",
+    "title": "Sala de Trofeos",
+    "subtitle": "Una colección sin igual en la historia del deporte: gloria de clubes, de selección y a nivel individual combinadas como nunca antes.",
+    "wonLabel": "Ganados",
+    "items": {
+      "worldCup": {
+        "name": "Copa Mundial de la FIFA",
+        "detail": "Catar 2022 — la corona que completó el legado del GOAT."
+      },
+      "ballonDor": {
+        "name": "Balón de Oro",
+        "detail": "Un récord de 8 conquistas: ningún otro jugador se le acerca."
+      },
+      "copaAmerica": {
+        "name": "Copa América",
+        "detail": "Campeón con Argentina, poniendo fin a una sequía de 28 años para la selección."
+      },
+      "championsLeague": {
+        "name": "UEFA Champions League",
+        "detail": "Cuatro coronas europeas conquistadas con el FC Barcelona."
+      },
+      "laLiga": {
+        "name": "La Liga",
+        "detail": "Diez títulos de liga conquistados en España."
+      },
+      "copaDelRey": {
+        "name": "Copa del Rey",
+        "detail": "Siete triunfos en la Copa del Rey."
+      },
+      "goldenShoe": {
+        "name": "Bota de Oro Europea",
+        "detail": "Un récord de seis veces máximo goleador de las ligas de Europa."
+      },
+      "olympicGold": {
+        "name": "Medalla de Oro Olímpica",
+        "detail": "Pekín 2008, campeón con la selección argentina sub-23."
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "En Números",
+    "title": "Estadísticas del GOAT",
+    "subtitle": "Récords que redefinen lo posible en una cancha de fútbol: cifras que nadie más ha alcanzado jamás.",
+    "note": "Todas las cifras reflejan los totales de su carrera entre clubes y selección.",
+    "items": {
+      "ballonDor": { "label": "Balones de Oro", "context": "El máximo histórico — el segundo puesto tiene 5" },
+      "calendarYearGoals": { "label": "Goles en un Año Calendario", "context": "2012 — un récord mundial histórico" },
+      "laLigaGoals": { "label": "Goles en La Liga", "context": "Máximo goleador histórico de la primera división española" },
+      "clubGoals": { "label": "Goles con el FC Barcelona", "context": "El máximo goleador histórico del club" },
+      "hatTricks": { "label": "Hat-tricks en su Carrera", "context": "Incluyendo 8 partidos con cuatro goles y 1 con cinco goles" },
+      "copaAmericaGoals": { "label": "Goles en la Copa América", "context": "Máximo goleador histórico en la historia del torneo" },
+      "assistsAllTime": { "label": "Asistencias en su Carrera", "context": "El mejor generador de juego de su época" },
+      "freeKicks": { "label": "Goles de Tiro Libre Directo", "context": "Entre los ejecutores de pelota parada más letales de la historia" }
+    }
+  },
+  "footer": {
+    "tagline": "Un homenaje hecho para los hinchas, en todos los idiomas, para el GOAT.",
+    "madeWith": "Construido con pasión por el fútbol.",
+    "rights": "Homenaje no oficial de aficionados. Todas las marcas pertenecen a sus respectivos dueños."
+  }
+}
