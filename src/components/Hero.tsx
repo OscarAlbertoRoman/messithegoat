@@ -1,59 +1,82 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import AnimatedCounter from "./AnimatedCounter";
 import { heroStats } from "@/data/stats";
+import heroPhoto from "../../public/images/messithegoat.png";
 
 export default function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-goat-black px-4 pt-24 pb-16">
+    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-goat-black px-4 pt-28 pb-16 lg:pt-24">
       <div className="bg-grid pointer-events-none absolute inset-0 opacity-60" />
       <div className="pointer-events-none absolute left-1/2 top-1/3 h-[36rem] w-[36rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-goat-gold/10 blur-[140px]" />
       <div className="pointer-events-none absolute right-0 top-0 h-72 w-72 rounded-full bg-blaugrana-blue/20 blur-[120px]" />
       <div className="pointer-events-none absolute bottom-0 left-0 h-72 w-72 rounded-full bg-goat-celeste/10 blur-[120px]" />
 
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7 }}
-        className="relative z-10 flex flex-col items-center text-center"
-      >
-        <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-goat-gold/30 bg-goat-gold/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-goat-gold">
-          {t("eyebrow")}
-        </span>
-
-        <h1 className="font-display leading-[0.95] tracking-wide text-white">
-          <span className="block text-[4rem] sm:text-[7rem] lg:text-[9rem]">
-            {t("titleLine1")}
+      <div className="relative z-10 mx-auto grid w-full max-w-6xl items-center gap-12 lg:grid-cols-2 lg:gap-8">
+        <motion.div
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          className="order-2 flex flex-col items-center text-center lg:order-1 lg:items-start lg:text-left"
+        >
+          <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-goat-gold/30 bg-goat-gold/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-goat-gold">
+            {t("eyebrow")}
           </span>
-          <span className="text-gradient-gold block text-[3rem] sm:text-[5.5rem] lg:text-[7rem]">
-            {t("titleLine2")}
-          </span>
-        </h1>
 
-        <p className="mt-8 max-w-2xl text-balance text-base leading-relaxed text-white/65 sm:text-lg">
-          {t("subtitle")}
-        </p>
+          <h1 className="font-display leading-[0.95] tracking-wide text-white">
+            <span className="block text-[4rem] sm:text-[7rem] lg:text-[6.5rem] xl:text-[7.5rem]">
+              {t("titleLine1")}
+            </span>
+            <span className="text-gradient-gold block text-[3rem] sm:text-[5.5rem] lg:text-[5rem] xl:text-[5.75rem]">
+              {t("titleLine2")}
+            </span>
+          </h1>
 
-        <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-          <a
-            href="#timeline"
-            className="rounded-full bg-goat-gold px-8 py-3 text-sm font-semibold text-goat-black shadow-lg shadow-goat-gold/20 transition-transform hover:scale-105"
-          >
-            {t("cta1")}
-          </a>
-          <a
-            href="#trophies"
-            className="rounded-full border border-white/20 px-8 py-3 text-sm font-semibold text-white transition-colors hover:border-goat-gold hover:text-goat-gold"
-          >
-            {t("cta2")}
-          </a>
-        </div>
-      </motion.div>
+          <p className="mt-8 max-w-2xl text-balance text-base leading-relaxed text-white/65 sm:text-lg">
+            {t("subtitle")}
+          </p>
+
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a
+              href="#timeline"
+              className="rounded-full bg-goat-gold px-8 py-3 text-sm font-semibold text-goat-black shadow-lg shadow-goat-gold/20 transition-transform hover:scale-105"
+            >
+              {t("cta1")}
+            </a>
+            <a
+              href="#trophies"
+              className="rounded-full border border-white/20 px-8 py-3 text-sm font-semibold text-white transition-colors hover:border-goat-gold hover:text-goat-gold"
+            >
+              {t("cta2")}
+            </a>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.94 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="animate-float order-1 flex justify-center lg:order-2 lg:justify-end"
+        >
+          <div className="relative w-64 sm:w-80 lg:w-96">
+            <div className="pointer-events-none absolute inset-0 scale-90 rounded-full bg-goat-gold/25 blur-[90px]" />
+            <Image
+              src={heroPhoto}
+              alt={t("titleLine1") + " " + t("titleLine2")}
+              placeholder="blur"
+              priority
+              sizes="(min-width: 1024px) 24rem, 20rem"
+              className="relative z-10 w-full [mask-image:linear-gradient(to_bottom,black_75%,transparent_100%)]"
+            />
+          </div>
+        </motion.div>
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 24 }}
